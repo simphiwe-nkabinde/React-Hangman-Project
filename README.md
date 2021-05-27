@@ -13,19 +13,16 @@ To run this application on your loacal machine:
 
 ```
 cd hangman-app
-
 ```
 
 - execute npm install to install all dependancies
 
 ```
 npm install
-
 ```
 
 - execute npm start to launch the game in the browser
 
 ```
 npm start
-
 ```
