@@ -1,4 +1,4 @@
-Hangman-Capstone-Project
+# Hangman-Capstone-Project
 
 ## Description
 A Web app game built using React. The game picks a random
