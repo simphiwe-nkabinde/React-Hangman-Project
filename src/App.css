@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .keyboard-key {
+    font-size: 1rem !important;
+  }
+  .diagram img {
+    height: 200px !important;
+  }
+  .wordblock-letter {
+    font-size: 1.5rem !important;
+    width: 35px !important;
+    height: 35px !important;
+
+  }
+}
+.main {
+  background: url('grid.png') repeat center;
+  background-size: contain;
+}
+.keyboard {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.diagram img {
+  height: 250px;
+}
+.bg-warning-light {
+  background-color: #ffc107db;
+}
+.keyboard-key {
+  font-size: 1.3rem;
+}
+.font-fam-indie {
+  font-family: 'Indie Flower', cursive !important;
+}
+.font-fam-raleway {
+  font-family: 'Raleway', sans-serif !important;
+}
+.wordblock-letter {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: #282c34 3px solid;
+}
+/* cloud animation */
+.cloud {
+  position: absolute;
+  top: 150px;
+  display: inline-block;
+  width: 80px;
+}
+.cloud1 {
+  animation-name: cloud1;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cloud1 {
+  0% {left: 10%;}
+  50% {left: 13%;}
+  100% {left: 10%;}
+}
+.cloud2 {
+  animation-name: cloud2;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cloud2 {
+  0% {right: 10%;}
+  50% {right: 13%;}
+  100% {right: 10%;}
+}
+

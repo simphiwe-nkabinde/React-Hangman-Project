@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Hangman from './components/Hangman.js';
+import cloud1 from './cloud1.png';
+import cloud2 from './cloud2.png';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-center main">
+      <div className="bg-warning-light shadow text-light py-2">
+        <p className="font-fam-raleway mb-0 lead">Welcome to</p>
+        <h1 className="font-fam-raleway display-4">Hangman</h1>        
+      </div>
+
+
+
+      <div className="container">
+        <img src={cloud1} alt="cloud 1" className='cloud cloud1'/>
+        <img src={cloud2} alt="cloude 2" className='cloud cloud2'/>
+        <Hangman/>
+      </div>
+      <footer className="mt-5 bg-dark py-3 text-light">
+        <p className="lead">Created by Simphiwe Nkabinde</p>
+        <p className="lead">Built with React JavaScript Library</p>
+      </footer>
     </div>
   );
 }
