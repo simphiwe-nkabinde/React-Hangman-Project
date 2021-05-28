@@ -26,3 +26,5 @@ npm install
 ```
 npm start
 ```
+### Open deployed App in browser
+https://murmuring-tor-56355.herokuapp.com/
