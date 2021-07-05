@@ -52,10 +52,12 @@
 
   }
 }
-.main {
-  background: url('grid.png') repeat center;
-  background-size: contain;
+
+body {
+  height: 100vh;
+  background-color: #f8f9fa;
 }
+
 .keyboard {
   max-width: 400px;
   margin-left: auto;
@@ -83,6 +85,20 @@
   font-size: 2rem;
   border-bottom: #282c34 3px solid;
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* display: none; */
+}
+.project-list {
+  /* font-family: monospace; */
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  color: #004085;
+}
+
 /* cloud animation */
 .cloud {
   position: absolute;
